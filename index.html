@@ -1,54 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zero Accessibility Score Example</title>
-</head>
+<html>
+<head><title>Unstructured Mess</title></head>
 <body>
+    <h1>My Website</h1>
     <div>
-        <h1>Zero Accessibility Score Example</h1>
-        <p>This is an example of HTML code intentionally designed with zero accessibility considerations.</p>
-        <div>
-            <img src="example.jpg" alt="">
-            <p>This is an image with no alt attribute.</p>
-        </div>
-        <div>
-            <button>Click me</button>
-            <p>This button has no accessible name or description.</p>
-        </div>
+        <p>Here is some text that makes no sense. I'm just typing whatever comes to mind without any structure or organization.</p>
+        <img src="example.jpg">
+        <div><button>Click me</button></div>
         <div>
             <a href="#">Link</a>
-            <p>This link has no meaningful text.</p>
-        </div>
-        <div>
             <input type="text">
-            <p>This input field has no label or associated text.</p>
         </div>
         <div>
             <table>
                 <tr>
+                    <th>Header 1</th>
                     <td>Cell 1</td>
+                </tr>
+                <tr>
                     <td>Cell 2</td>
+                    <td>Cell 3</td>
                 </tr>
             </table>
-            <p>This table lacks proper semantic markup and accessibility attributes.</p>
         </div>
         <div>
-            <audio controls>
-                <source src="audio.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-            <p>This audio element lacks alternative content for non-supporting browsers.</p>
-        </div>
-        <div>
-            <video controls width="320" height="240">
-                <source src="video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p>This video element lacks alternative content for non-supporting browsers.</p>
+            <audio src="audio.mp3" controls>Your browser does not support the audio element.</audio>
+            <video src="video.mp4" controls width="320" height="240">Your browser does not support the video tag.</video>
         </div>
     </div>
-    <!-- Intentionally leaving out any accessibility enhancements -->
 </body>
 </html>
