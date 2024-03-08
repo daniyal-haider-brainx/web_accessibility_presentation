@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>100% Accessibility Score Example</title>
+</head>
+<body>
+    <div>
+        <h1>100% Accessibility Score Example</h1>
+        <p>This is an example of HTML code designed with full accessibility considerations.</p>
+        <div>
+            <img src="example.jpg" alt="Example Image">
+            <p>This is an image with appropriate alt text.</p>
+        </div>
+        <div>
+            <button aria-label="Click me">Click me</button>
+            <p>This button has an accessible name using the aria-label attribute.</p>
+        </div>
+        <div>
+            <a href="#" aria-label="Example Link">Example Link</a>
+            <p>This link has meaningful text and an accessible name using the aria-label attribute.</p>
+        </div>
+        <div>
+            <label for="inputField">Input Field:</label>
+            <input type="text" id="inputField" aria-describedby="inputFieldDescription">
+            <p id="inputFieldDescription">This input field has a label associated with it.</p>
+        </div>
+        <div>
+            <table>
+                <caption>Example Table</caption>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>This table includes a caption and proper semantic markup.</p>
+        </div>
+        <div>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>This audio element includes alternative content for non-supporting browsers.</p>
+        </div>
+        <div>
+            <video controls width="320" height="240">
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>This video element includes alternative content for non-supporting browsers.</p>
+        </div>
+    </div>
+</body>
+</html>
